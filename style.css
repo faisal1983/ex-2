@@ -1,0 +1,456 @@
+@media (max-width: 768px) {
+	
+	.logo_name p{
+		text-align: center;
+		font-size: 14px;
+	}
+	.footer_name p{
+		text-align: center;
+		font-size: 14px;
+	}
+	.social_icon_box{
+		position: relative;
+	}
+	.social_icon{
+		position: absolute;
+		left: 50%;
+		transform: translateX(-50%);
+
+	}
+	.slider_section{
+		margin-top: 15%;
+	}
+	
+	.social_icon i{
+		margin-right: 5%;
+		padding-left: 5%;
+
+	}
+	.portfolio_icon{
+		float: left;
+		width: 30px;
+	}
+	.portfolio_content_title{
+		float: right;
+	}
+	
+
+	.portfolio_content_title h2{
+		font-size: 16px;
+		font-weight: bold;
+
+
+	}
+	.portfolio_icon{
+	position: relative;
+	}
+	.portfolio_content_title{
+		position: absolute;
+		left: 15%;
+	}
+	input{
+	
+	
+	background: #ebebeb;
+	
+	border-radius: 5px;
+	border: 1px solid white;
+	width: auto;
+	font-size: 10px;
+
+	}
+	textarea{
+	background: #ebebeb;
+	border-radius: 5px;
+	
+	border: none;
+	margin-bottom: 4%;	
+	}
+	button{
+	min-width: 100px;
+	min-height: 40px;
+	background: #ebebeb;
+	border-radius: 5px;
+	}
+	.main_title h1{
+		font-size: 24px;
+	}
+	.subtitle h4{
+	
+	font-size: 20px;
+	}
+	.my_image_caption #carousel-example-generic .carousel-caption p{
+		font-size: 12px;
+		
+	}
+	.my_image_caption .carousel-control .glyphicon-chevron-left, .my_image_caption .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next, .carousel-control .icon-prev {
+    
+    top: 86.5%;
+    background-color: #32302d;
+    border-radius: 100px;
+
+	}
+
+	
+	
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+	.slider_section{
+		margin-top: 5%;
+	}
+
+	.social_icon i{
+		margin-right: 5%;
+	}
+	
+	.portfolio_content_title h2{
+		font-size: 18px;
+
+
+	}
+	.portfolio_content_title{
+		max-width: 170px;
+		
+	}
+
+	
+	.portfolio_subcontent{
+		display: inline-block;
+	}
+	.portfolio_icon{
+		position: relative;
+	}
+	.portfolio_content_title{
+		position: absolute;
+		left: 0%;
+	}
+	.main_title h1{
+		font-size: 30px;
+	}
+	.subtitle h4{
+	
+	font-size: 24px;
+	}
+	.my_image_caption .carousel-control .glyphicon-chevron-left, .my_image_caption .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next, .carousel-control .icon-prev {
+    
+    top: 86.5%;
+    background-color: #32302d;
+    border-radius: 100px;
+
+	}
+	
+	
+
+	
+}
+
+@media (min-width: 992px) and (max-width: 1024px) {
+	.slider_section{
+		margin-top: 5%;
+	}
+
+	.logo_name{
+	float: left;
+	
+	}
+	.footer_name{
+	float: left;
+	
+	}
+	.portfolio_content_title h2{
+		font-size: 20px;
+	}
+
+	.social_icon{
+	float: right;
+	}
+	.social_icon i{
+	/*border: 2px solid red;*/
+	margin-right: 9%;
+	padding-left: 3%;
+
+	}
+	.portfolio_icon{
+	position: relative;
+	}
+	.portfolio_content_title{
+		position: absolute;
+		left: -5%;
+	}
+	.main_title h1{
+		font-size: 50px;
+	}
+	.subtitle h4{
+	
+	font-size: 30px;
+	}
+	.my_image_caption .carousel-control .glyphicon-chevron-left, .my_image_caption .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next, .carousel-control .icon-prev {
+    
+    top: 86.5%;
+    background-color: #32302d;
+    border-radius: 100px;
+
+	}
+
+}
+@media (min-width: 1024px) {
+	.slider_section{
+		margin-top: 5%;
+	}
+
+	.logo_name{
+	float: left;
+	
+	}
+	.footer_name{
+	float: left;
+	
+	}
+	.social_icon{
+	float: right;
+	}
+	.social_icon i{
+		/*border: 2px solid red;*/
+		margin-right: 9%;
+		padding-left: 3%;
+	}
+	.portfolio_content_title h2{
+		font-size: 22px;
+	}
+	.portfolio_icon{
+	position: relative;
+	}
+	.portfolio_content_title{
+		position: absolute;
+		left: -8%;
+	}
+	.main_title h1{
+		font-size: 50px;
+	}
+	.subtitle h4{
+	
+	font-size: 30px;
+	}
+	.my_image_caption .carousel-control .glyphicon-chevron-left, .my_image_caption .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next, .carousel-control .icon-prev {
+    
+    top: 86.5%;
+    background-color: #32302d;
+    border-radius: 100px;
+
+
+	}
+}
+
+
+.header_section{
+	min-height: 450px;
+	padding-top: 3%;
+
+	background-image: url(headerbg.png);
+	background-repeat: repeat;
+	background-size: cover;
+
+
+}
+
+/*.slider_section #carousel-example-generic .item img{
+	min-height: 415px;
+}
+.slider_section #carousel-example-generic{
+	min-height: 415px;
+}*/
+.logo_contact{
+	padding: 5% 0;
+}
+.logo_name{
+	font-family: Georgia;
+	font-style: italic;
+	font-size: 18px;
+}
+
+.image img{
+	width: 100%;
+}
+.my_image img{
+	width: 100%;
+}
+.social_icon{
+	/*border: 2px solid black;*/
+	min-width: 230px;
+}
+
+.social_icon{
+	/*border: 2px solid black;*/
+	
+
+}
+.social_icon i{
+	margin-left: 2%;
+}
+.subtitle h4{
+	text-align: center;
+	font-family: Georgia;
+	
+}
+.main_title h1{
+	text-align: center;
+	font-family: Georgia;
+	
+}
+.main_title{
+	padding-bottom: 5%;
+}
+.portfolio_section{
+	padding-top: 2%;
+	padding-bottom: 4%;
+
+}
+
+
+
+.portfolio_content_title h2{
+	margin: 8px 8px 10px 0;
+	padding: 0;
+	margin-top: 5px;
+}
+.portfolio_icon{
+	margin: 8px 0;
+	padding: 0;
+	margin-top: 5px;
+}
+.gallery_section{
+	background-image: url(headerbg.png);
+	background-size: cover;
+}
+.image{
+	padding-bottom: 4%;
+}
+.image_section{
+	padding-top: 5%;
+	padding-bottom: 10%;
+}
+.portfolio_content_details{
+	padding-top: 5%;
+}
+.my_image{
+	position: relative;
+}
+.caro_caption{
+	/*border: 2px solid white;*/
+	position: absolute;
+	bottom: 0;
+
+}
+
+
+.item p{
+	/*border: 2px solid white;*/
+	text-align: center;
+	color: white;
+	max-width: 350px;
+	margin: 0 auto;
+	padding-top: 5%;
+
+}
+.item img{
+	width: 100%;
+}
+
+input{
+	margin-bottom: 4%;
+	/*color: #8e8e8e;*/
+	
+
+}
+
+.name{
+	background-image: url(name.png);
+	background-position: 10px 10px;
+	background-repeat: no-repeat;
+	padding-left: 12%;
+
+}
+.email{
+	background-image: url(email.png);
+	background-position: 10px 10px;
+	background-repeat: no-repeat;
+	padding-left: 12%;
+
+}
+.website{
+	background-image: url(globe.png);
+	background-position: 10px 10px;
+	background-repeat: no-repeat;
+	padding-left: 12%;
+
+}
+textarea{
+	margin-bottom: 4%;
+	
+}
+.form-control{
+	background-color: #ebebeb;
+	color: #555;
+	font-style: italic; 
+}
+.profile_pic{
+	padding-top: 4%;
+}
+.my_image_caption #carousel-example-generic .carousel-caption{
+	background-color: black;
+	opacity: 0.6;
+	bottom: 0%;
+	width: 100%;
+	left: 50%; 
+	transform: translateX(-50%);
+}
+.my_image_caption #carousel-example-generic .carousel-caption p{
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+.author_name{
+	font-size: 16px;
+	font-style: Georgia;
+}
+.author_details{
+	font-style: Georgia;
+	font-size: 14px;
+	line-height: 22px;
+}
+.footer_section{
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+.footer_line img{
+	width: 100%;
+	padding-bottom: 4%;
+}
+.footer_name{
+	padding-left: 4%;
+}
+.footer_name p{
+	font-size: 14px;
+	font-family: Georgia;
+}
+#carousel-example-generic{
+	border-style: double;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
